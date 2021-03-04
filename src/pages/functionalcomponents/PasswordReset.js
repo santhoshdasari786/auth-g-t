@@ -1,4 +1,4 @@
-import React, { useState,useContext } from "react";
+import React, { useState } from "react";
 import { Link } from "@reach/router";
 import { auth } from "../../firebase";
 // import { UserContext } from "../../providers/UserProvider";
@@ -56,6 +56,9 @@ const PasswordReset = () => {
           />
           <button
             className="w-full bg-blue-400 text-white py-3"
+            onClick={event => {
+                sendResetEmail(event);
+              }}
           >
             Send me a reset link
           </button>

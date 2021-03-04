@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "@reach/router";
 
-import { auth, signInWithGoogle, generateUserDocument } from "../../firebase";
+import { auth, generateUserDocument } from "../../firebase";
 
 const SignUp = () => {
     const [email, setEmail] = useState("");

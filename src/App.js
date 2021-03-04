@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import Application from "./pages/functionalcomponents/Application";
 import UserProvider from "./providers/UserProvider";
 
